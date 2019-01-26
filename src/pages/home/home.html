@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Iniciar sesión</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <img src="assets/imgs//NCU5RFKRZgjZ8EgO4DVg_b2b.png" style="display: block; height: auto; margin-left: auto; margin-right: auto;">
+
+  <ion-item>
+    <ion-label floating> Correo electrónico </ion-label>
+    <ion-input type="email"> </ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating> Contraseña </ion-label>
+      <ion-input type="password"> </ion-input>
+      </ion-item>
+      <div class="form-item">
+        <button ion-button (click)="otraPagina(h)"> Iniciar sesión </button>
+        <button  ion-button  (click)="createAccountWithGoogle()">
+
+<ion-icon name="logo-google"></ion-icon>
+        &nbsp;  Ingresar con Google
+          </button>
+        </div>
+</ion-content>
